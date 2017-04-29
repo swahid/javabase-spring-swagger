@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  */
 @RestController
-@RequestMapping("swagger/")
+@RequestMapping("swagger")
 public class IndexController{
 	
 	@GetMapping()
